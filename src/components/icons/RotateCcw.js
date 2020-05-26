@@ -6,12 +6,13 @@ function SvgRotateCcw(props) {
     <Svg
       width={24}
       height={24}
+      viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
       strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="rotate-ccw_svg__feather rotate-ccw_svg__feather-rotate-ccw"
+      className=""
       {...props}
     >
       <Path d="M1 4v6h6" />

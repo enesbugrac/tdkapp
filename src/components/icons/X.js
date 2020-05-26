@@ -1,13 +1,13 @@
 import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 
-function SvgBookmark(props) {
+function SvgX(props) {
   return (
     <Svg
       width={24}
       height={24}
       viewBox="0 0 24 24"
-      fill="none"
+      fill="currentColor"
       stroke="currentColor"
       strokeWidth={2}
       strokeLinecap="round"
@@ -15,9 +15,9 @@ function SvgBookmark(props) {
       className=""
       {...props}
     >
-      <Path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
+      <Path d="M18 6L6 18M6 6l12 12" />
     </Svg>
   )
 }
 
-export default SvgBookmark
+export default SvgX
